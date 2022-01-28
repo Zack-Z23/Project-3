@@ -1,0 +1,83 @@
+
+
+
+.buttons input {
+    display: inline-block;
+    width: 120px;
+    height: 46px;
+    margin-top: 34px;
+    margin-left: 15px;
+    line-height: 47px;
+    background-color: #5b7dda;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .1px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 2.5 ease-in-out;
+    padding-bottom: 50px;
+}
+.buttons #Bing{
+    display: inline-block;
+    width: 120px;
+    height: 46px;
+    margin-top: 34px;
+    margin-left: 15px;
+    line-height: 47px;
+    background-color: #1a8d16;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .1px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 2.5 ease-in-out;
+    padding-bottom: 50px;
+}
+.buttons #Google{
+    display: inline-block;
+    width: 120px;
+    height: 46px;
+    margin-top: 34px;
+    line-height: 47px;
+    background-color: #a03737;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .1px;
+    text-align: center;
+    text-decoration: none;
+    cursor:pointer;
+    transition: all 2.5 ease-in-out;
+    padding-bottom: 50px;
+}
+.buttons #Google:disabled{
+    cursor: not-allowed;
+}
+.buttons #Bing:disabled{
+    cursor: not-allowed;
+}
+
+input[type = text], input[type = email] {
+    display: block;
+    margin-top: 20px;
+    width: 350px;
+    height: 48px;
+    border: 1px solid rgba(255, 255, 255, .1);
+    background-color: 1px solid rgba(255, 255, 255, .1);
+    border-radius: 4px;
+    margin-left: 15px;
+    box-shadow: rgba(0, 0, 0, 0.911);
+    padding:  0 15px;
+
+}
+

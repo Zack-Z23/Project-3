@@ -1,0 +1,154 @@
+@charset "utf-8";
+*
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    
+    box-shadow: none;
+    box-sizing: border-box;
+    vertical-align: baseline;
+        -webkit-transition-duration: 0s;
+        transition-duration: 0s;
+}
+body{
+    background-color: rgba(51, 51, 51, 0.986);
+}
+.container
+{
+    position: relative;
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+
+
+
+
+
+}
+.container2{
+    position: relative;
+    width: 90%;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+nav
+{
+    font-style: none;
+    list-style: none;
+}
+
+header
+{
+    min-width: 100%;
+    background-color: white ;
+    overflow: hidden;
+}
+header div
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.title
+{
+    height: 56px;
+}
+.title h1 {
+    font-size: 29px;
+    font-weight: 600;
+    color: white;
+    line-height: 56px;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+
+}
+
+
+
+h1 {
+    color: #FFF;
+    font-size: 44px;
+    margin-right: 40px;
+    font-weight: 400;
+ 
+}
+#h1Seach{
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+h2 {
+        margin-left: 15px;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    min-width: 80%;
+    background-color: rgba(64, 110, 209, 0.651);
+
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+
+nav {
+    height: 56px;
+    font-size: 100%;
+    color: white;
+    overflow: hidden;
+}
+
+nav ul {
+    float: none;
+    list-style: none;
+    font-size: 0;
+}
+
+nav ul li {
+    display: inline;
+    line-height: 56px;
+}
+
+nav ul li+li {
+    margin-left: 0;
+}
+
+nav ul li button {
+    display: inline-block;
+    padding:  20px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    font-size: 24px;
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    text-transform: none;
+    line-height: 20px;
+}
+
+nav ul li button:hover {
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+p{
+    margin-left: 15px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}

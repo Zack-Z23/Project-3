@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="uft-8">
+    <!-- <meta http-equiv="X-IIA-Compatible" content="IE-Edge"> -->
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <meta name="author" content="Zacharias Zachariadis">
+    <meta name="robots" content="index, follow">
+    <title>Project 3</title>
+    <link rel="stylesheet" href="Assets/index.css" media="all">
+    <link rel="stylesheet" href="Assets/form.css">
+   <script src="Assets/javascript.js" defer></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <div class="title">
+                    <h1>Project 3</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><button type="button" onclick="onClick1()">Sign Up</button></li>
+                        <li><button type="button" onclick="onClick()">Login</button></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+            <main>
+                <div class="container2">
+                    <div id="Search-engine">
+                        <h1 id="h1Seach">Search</h1>
+                        <input type="text" id="Search" placeholder="Search">
+                        <div class="buttons">
+                        <button type="button" id="Google" onclick="enableBut()" >Google</button>
+                        <button type="button" id="Bing" onclick="enableBut()" >Bing</button>
+                        </div>
+                    </div>
+
+
+                </div>
+                <section id="section1">
+                    <div id="form">
+                        <h2>Login</h2>
+                        <p>Fields with * are required</p>
+        
+                        <form id="registration" class="registration" novalidate>
+                            <input type="text" id="username" placeholder="Username">
+                            <input type="text" id="password" placeholder="Password">
+ 
+        
+                            <div class="buttons">
+                                <input type="reset" value="Clear">
+                                <input type="button" id="submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                </section>
+                    <section id="section2">
+                    <div id="form1">
+                        <h2>Sign Up</h2>
+                        <p>Fields with * are required</p>
+        
+                        <form id="registration" class="registration" novalidate>
+                            <input type="text" id="username1" placeholder="Username">
+                            <input type="text" id="password1" placeholder="Password">
+ 
+        
+                            <div class="buttons">
+                                <input type="reset" value="Clear">
+                                <input type="button" id="submit1" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                </section>
+             
+            </main>
+
+
+        </div>
+    </body>
+    </html>
+
+
