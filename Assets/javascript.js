@@ -99,10 +99,10 @@ $submit1.addEventListener('click', () => {
 function enableBut(){
 
 if(signedIn == true){
-    bing.enabled == true;
-    google.enabled == true;
+    bing.enabled = true;
+    google.enabled = true;
     google.style.cursor = 'pointer';
-    bing.style.cursorm = 'pointer';
+    bing.style.cursor = 'pointer';
     bing.addEventListener('click', () =>{  
     window.location.href ='https://www2.bing.com/search?q='.concat(Search.value);
 
